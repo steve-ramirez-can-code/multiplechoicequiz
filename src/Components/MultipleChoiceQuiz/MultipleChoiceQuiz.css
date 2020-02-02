@@ -1,0 +1,28 @@
+.QuizContainer{
+    border: thin solid blue;
+}
+
+.questionContainer{
+    border: thin solid purple;
+    padding: 2rem;
+    margin: 2rem
+}
+.messageContainer {
+    border: thin solid orange;
+    padding: 2rem;
+    margin: 2rem
+
+}
+
+.correctAnswer{
+    border:thick solid green
+}
+
+ol.answersOrderedList li{
+    position:relative;
+    left:-.5em;
+}
+.noInteraction{
+    display:none;
+    pointer-events: none;
+}

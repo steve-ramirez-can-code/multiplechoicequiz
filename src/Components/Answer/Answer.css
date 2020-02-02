@@ -1,0 +1,34 @@
+.wrongAnswer{
+    border: thin solid red;
+    text-decoration-line: line-through;
+}
+.correctAnswer{
+    border: thin solid green
+}
+
+.noClicks{
+    pointer-events: none;
+}
+
+.testAnswer{
+    border: thin solid blue
+}
+.answerOption{
+    padding:.5rem;
+    margin:.5rem;
+    animation-timing-function: ease-in-out;
+    animation: movement 2s infinite;
+}
+
+@keyframes movement {
+    from {right: 10px}
+    to {left: 250px}
+}
+.toggleNextQuestion{
+    display:none
+}
+.noInteraction{
+    display:none;
+    pointer-events: none;
+}
+

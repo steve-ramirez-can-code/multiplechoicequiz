@@ -1,0 +1,12 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.toggleNextQuestion{
+    display:none
+}
+.noInteraction{
+    display:none;
+    pointer-events: none;
+}
